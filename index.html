@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body class="flx">
+  <header class="flx-r pd-body">
+    <div class="header__logo">
+      <img src="./images/logo.svg" alt="" class="" />
+    </div>
+    <div class="header__menu">
+      <ul class="bold">
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </div>
+  </header>
+  <section class="hero pd-body pbtm-big">
+    <div class="hero--img-container">
+      <img src="./images/illustration-1.svg" alt="" class="hero__img img-width" />
+    </div>
+    <div class="hero__content">
+      <h1 class="hero__head bolder mhc alc">
+        All your files in one secure location, accessible anywhere.
+      </h1>
+      <p class="hero__copy alc">
+        Fylo stores your most important files in one secure location. Access
+        them wherever you need, share and collaborate with friends, family,
+        and co-workers.
+      </p>
+      <div class="hero__interaction cntr">
+        <input type="text" class="hero__input cntr mib" id="email" placeholder="Enter your email ..." />
+        <button id="inputButton" class="btn bold hero__btn cntr">
+          Get Started
+        </button>
+      </div>
+    </div>
+  </section>
+  <div class="productive--bg-decoration"></div>
+  <section class="productive pd-body pbtm-big">
+    <div class="hero--img-container">
+      <img src="./images/illustration-2.svg" alt="" class="productive__img img-width" />
+    </div>
+    <div class="productive__content">
+      <h2 class="hero__head bolder mhc alc">
+        Stay productive, wherever you are
+      </h2>
+      <p class="hero__copy">
+        Never let location be an issue when accessing your files. Fylo has you
+        covered for all of your file storage needs.
+      </p>
+      <p class="hero__copy">
+        Securely share files and folders with friends, family and colleagues
+        for live collaboration. No email attachments required!
+      </p>
+      <ul>
+        <li><a href="" class="productive__link alc pbtm-small">
+            See how Fylo works<img class="test" src="./images/icon-arrow.svg" /></a>
+      </ul>
+
+      <div class="productive__testimonial cntr">
+        <img src="./images/icon-quotes.svg" alt="" class="productive__testimonial-mark" />
+        <p class="productive__testimonial-copy">
+          Fylo has improved our team productivity by an order of magnitude.
+          Since making the switch our team has become a well-oiled
+          collaboration machine.
+        </p>
+        <div class="productive__testimonial-footer flx-r">
+          <img src="./images/avatar-testimonial.jpg" alt="Portrait of a satisfied customer"
+            class="productive__testimonial-img" />
+          <!-- Better use of "figure"? -->
+
+          <p class="productive__card-name">
+            Kyle Burton<br /><span class="productive__card-title">Founder & CEO, Huddle</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="access pd-body pbtm-big">
+    <div class="access__content txt-white">
+      <h2 class="hero__head bolder mhc alc">Get early access today</h2>
+      <p class="hero__copy alc">
+        It only takes a minute to sign up and our free starter tier is
+        extremely generous. If you have any questions, our support team would
+        be happy to help you.
+      </p>
+    </div>
+    <div class="acess__input cntr">
+      <input type="text" class="access__input-field cntr mib" id="email" placeholder="email@example.com" />
+      <button id="inputButton" class="btn access__input-button bold cntr">
+        Get Started For Free
+      </button>
+    </div>
+    </div>
+  </section>
+  <footer class="flx txt-white pd-body">
+    <div class="footer__header">
+      <img class="filter__white" src="./images/logo.svg" alt="" class="logo footer__logo" />
+    </div>
+    <div class="footer__content flx">
+      <div class="footer__content-contact">
+        <ul class="ul-pd-zero">
+          <li>
+            <img src="./images/icon-phone.svg" alt="" />
+            Phone:
+            +1-543-123-4567
+          </li>
+          <li>
+            <a href="#"><img src="./images/icon-email.svg" alt="" /> example@fylo.com</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__content-menu-middle">
+        <ul class="footer__nav-items ul-pd-zero ">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer__content-menu-middle-right flx">
+        <ul class="footer__nav-items ul-pd-zero ">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="footer__content-social-media">
+        <ul class="ul-pd-zero ">
+          <li>
+            <a href="#"><i class="fab fa-2x fa-facebook-square filter__white"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-2x  fa-instagram filter__white"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-2x  fa-twitter-square filter__white"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <p class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your
+      Name Here</a>.
+  </p>
+</body>
+<script src="main.js" src="https://kit.fontawesome.com/b76d0765f2.js" src="main.js" crossorigin="anonymous"></script>
+
+</html>
